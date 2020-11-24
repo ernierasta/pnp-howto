@@ -124,6 +124,14 @@ Example of bad crop marks:
 Usually my crop marks are 0.15mm wide, it seems very narrow, but you can see them well
 and they allow for precise cutting.
 
+Should there be cutting marks between components?
+
+It depends, if you take into account bleed - they may be helpful when cutting, but from my experience, they are not necessary. If you have space to add them without interfering with bleed - go for it. 
+
+```
+Note: Proper bleed prevents cutting marks beeing too close to component.
+```
+
 #### Bleed
 
 1. Bleed is necessary to allow slight cutting/alignment errors.
@@ -192,6 +200,8 @@ Here is example of what I mean (**Twin Stars** by  **Mike Mullins, Jason Tagmire
 
 Notice, that card edges are different color (and they are not one unified color), so author solved the problem by making two cutting lines. There is plenty of bleed, so cards will always look good.
 
+Also remember that duplex printing layout should contain always page with fronts, then page with backs, and so on. Even if you feel, that your file is bigger then it could. This way you will allow for quick printing without investigation which backs are for which components.
+
 ##### When duplex printing is used?
 
 * For every form of "quick printing". When someone wants to play as soon as possible and do not care about perfect build.
@@ -226,11 +236,34 @@ This is the best layout for PNP, lets see why.
 
 1. We have bleed.
 2. Cutting marks are perfect.
+3. Fronts and backs are aligned perfectly - always!
+4. Usually we do not loose any paper space.
+
+Gutter fold allows for best quality components because there will be no shift between backs and fronts.
+
+###### Remember when preparing
+
+1. **Folding line** should be at least **5mm** from (almost 1/4inch) bleed.
+   Sometimes even bigger space would be beneficial if components are meant to be thick (f.e.: 2mm cardboard used as core). 
+   With thicker core material there is risk of fold not being in the center, which will result in misalignment. More space
+   should prevent that (*TODO: really? I need to experiment more with that*).
+2. Backs have to be upside down.
+
+###### When gutter fold layout is used?
+
+Always ... well almost always. If someone wants to have best looking game, she/he would use this layout provided by author or created by user. There is no better layout known to mankind yet. :-D
+
+
+## Instructions
+
+It is always good idea to provide short instructions how to print and cut your game. If files would be done well, there would be no
 
 ## Biggest mistakes
 
 * **Lines around component.** Usually they are there to simplify cutting, but in reality, they are nightmare. You always end up with ugly black lines around some edges of the component. It will be quite random and they will ruin your build.
 * **No cutting helpers at all.** How one should cut it? ;-)
+* **No bleed** We are not perfect. Some people are really manually talented, others are not experienced cutters or they are using non-optimal equipment. By providing bleed you can even they chances to have nice looking game. I had seen people solving no bleed by cutting into component, which may ruin you design.
+
 * ****
 
 ## Software needed
@@ -245,6 +278,17 @@ I would love to hear any critics you have for this text. English is not my first
 You can create issue (or PR!) on github or contact me by **geekmail**:
 
 https://boardgamegeek.com/geekmail/compose?touser=ernierasta
+
+## TODO
+
+This how-to is not considered complete without:
+
+- more tools to create/edit pdf (need to investigate their availability under Windows OS),
+- short how-to print&cut in form of svg and pdf which game designers can distribute along their files or included in files.
+- example article (or/and video) how to prepare both layouts in Inkscape.
+
+It would be great if I would add:
+- example how to automate layout creation using Inkscape extensions.
 
 [introcards]: images/intro.png
 [cuttingmarksgood]: images/crop-marks-good.png "Good crop marks"
