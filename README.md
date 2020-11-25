@@ -215,7 +215,7 @@ Also remember that duplex printing layout should contain always page with fronts
   - double-sided photo paper,
   - linen or other decorated thick paper.
 * When someone has no other option. It is still possible to glue front and back (usually with cardboard between) quite precisely,
-  but it is much harder then with gutter fold layout.
+  but it is much harder comparing to gutter fold layout.
 
 Precision of duplex printing depends heavily on printer. Usually there will be some shift so bleed is necessary. 
 It works better for backs, which are created by repeating pattern.
