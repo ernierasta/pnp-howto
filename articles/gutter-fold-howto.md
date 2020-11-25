@@ -5,10 +5,10 @@
 * **steel ruler** (not aluminium)
 * **crafting knife**
 * sticky photo paper **OR** normal photo (or linen) paper and glue stick
-* **card stock** 130-260 (adjust to thickness of photo paper and lacquer)
+* **card stock** 130-260 (adjust to photo paper thickness and lacquer stiffness)
 * optionally - **transparent acrylic lacquer** (car lacquer works good)
 
-## Howto:
+## How-to:
 
 1. Print all pages.
 2. *Optionally* cover them with lacquer.
