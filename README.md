@@ -256,7 +256,11 @@ Always ... well almost always. If someone wants to have best looking game, she/h
 
 ## Instructions
 
-It is always good idea to provide short instructions how to print and cut your game. If files would be done well, there would be no
+It is always good idea to provide short instructions how to print and cut your game.
+
+Here are instructions which you can include inside your files or alongside them.
+
+[Gutter fold instruction](articles/gutter-fold-howto.md)
 
 ## Biggest mistakes
 
