@@ -28,13 +28,13 @@ by Leszek Cimała
             * [Gutter fold](#gutter-fold)
                * [Remember when preparing](#remember-when-preparing)
                * [When gutter fold layout is used?](#when-gutter-fold-layout-is-used)
-      * [Instructions](#instructions)
+      * [Instructions for game users](#instructions-for-game-users)
       * [Biggest mistakes](#biggest-mistakes)
       * [Software needed](#software-needed)
       * [Feedback](#feedback)
       * [TODO](#todo)
 
-<!-- Added by: ernie, at: Fri 27 Nov 2020 11:00:46 AM CET -->
+<!-- Added by: ernie, at: Mon 07 Dec 2020 08:42:07 PM CET -->
 
 <!--te-->
 
