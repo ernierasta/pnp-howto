@@ -323,7 +323,7 @@ It would be great if I would add:
 [ginst]: articles/gutter-fold-howto
 [gA4land]: articles/gutter-fold-howto/A4-landscape.pdf
 [gA4port]: articles/gutter-fold-howto/A4-portait.pdf
-[gLetterport]: articles/gutter-fold-howto/letter-potait.pdf
+[gLetterport]: articles/gutter-fold-howto/letter-portait.pdf
 [gLetterland]: articles/gutter-fold-howto/letter-landscape.pdf
 
 
