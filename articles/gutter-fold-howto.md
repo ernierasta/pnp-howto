@@ -2,7 +2,7 @@
 
 ## Prepare:
 
-* **steel ruler** (not aluminium)
+* **steel ruler** (not aluminum)
 * **crafting knife**
 * sticky photo paper **OR** normal photo (or linen) paper and glue stick
 * **card stock** 130-260 (adjust to photo paper thickness and lacquer stiffness)

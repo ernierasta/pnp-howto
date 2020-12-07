@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# ER2020: create pdf from github markdown
+
+# usage:
+# ./md2pdf myfile.md
+
+# dependencies:
+#  - pandoc
+
+# split to filename and path
+fname=$(basename "$1")
+FPATH=$(dirname "$1")
+FILE=$(echo "$fname" | rev | cut -f 2 -d '.' | rev)
+
+pandoc "$FPATH/$FILE.md" -f gfm -o "$FPATH/$FILE.odt"
+

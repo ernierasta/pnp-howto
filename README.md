@@ -13,6 +13,7 @@ by Leszek Cimała
       * [Components](#components)
          * [Size](#size)
          * [Low-ink version](#low-ink-version)
+         * [Color space](#color-space)
       * [Layouts](#layouts)
          * [Common rules for all layouts](#common-rules-for-all-layouts)
             * [Crop(cutting) marks.](#cropcutting-marks)
@@ -33,7 +34,7 @@ by Leszek Cimała
       * [Feedback](#feedback)
       * [TODO](#todo)
 
-<!-- Added by: ernie, at: Wed 25 Nov 2020 08:15:15 AM CET -->
+<!-- Added by: ernie, at: Fri 27 Nov 2020 11:00:46 AM CET -->
 
 <!--te-->
 
@@ -109,6 +110,11 @@ also providing B&W (greyscale) versions and they are not necessary low-ink.
 
 If you are not going to prepare greyscale version maybe just try to print your game greyscale and check how it looks. Maybe
 it will be usable if you only make few elements darker or lighter? It can even improve readability of your normal (color) version.
+
+### Color space
+
+For home printers choose sRGB (default in many graphic tools). You can eventually consider Adobe RGB, but not every printer supports it
+and colors would be compressed. Forget about CMYK. ;-)
 
 ## Layouts
 
@@ -260,13 +266,20 @@ Gutter fold allows for best quality components because there will be no shift be
 Always ... well almost always. If someone wants to have best looking game, she/he would use this layout provided by author or created by user. There is no better layout known to mankind yet. :-D
 
 
-## Instructions
+## Instructions for game users
 
 It is always good idea to provide short instructions how to print and cut your game.
 
 Here are instructions which you can include inside your files or alongside them.
 
-[Gutter fold instruction](articles/gutter-fold-howto.md)
+[Gutter fold instruction - source](articles/gutter-fold-howto.md)
+ * ![PDF A4 Portait][gA4port]
+ * ![PDF A4 Landscape][gA4land]
+ * ![PDF Letter Portait][gLetterport]
+ * ![PDF Letter Landscape][gLetterland]
+
+![Whole directory][ginst]
+
 
 ## Biggest mistakes
 
@@ -307,3 +320,10 @@ It would be great if I would add:
 [duplex]: images/the-shooting-party_duplex.png "Duplex example"
 [duplexbleed]: images/twin-stars_duplex-bleed.png "Duplex with bleed"
 [gutterfold]: images/the-shooting-party_gutter-fold.png "Gutter fold example"
+[ginst]: articles/gutter-fold-howto
+[gA4land]: articles/gutter-fold-howto/A4-landscape.pdf
+[gA4port]: articles/gutter-fold-howto/A4-portait.pdf
+[gLetterport]: articles/gutter-fold-howto/letter-potait.pdf
+[gLetterland]: articles/gutter-fold-howto/letter-landscape.pdf
+
+
