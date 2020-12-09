@@ -30,11 +30,11 @@ by Leszek Cimała
                * [When gutter fold layout is used?](#when-gutter-fold-layout-is-used)
       * [Instructions for game users](#instructions-for-game-users)
       * [Biggest mistakes](#biggest-mistakes)
-      * [Software needed](#software-needed)
+      * [Practical tutorials](#practical-tutorials)
       * [Feedback](#feedback)
       * [TODO](#todo)
 
-<!-- Added by: ernie, at: Mon 07 Dec 2020 08:42:07 PM CET -->
+<!-- Added by: ernie, at: Wed 09 Dec 2020 10:39:45 PM CET -->
 
 <!--te-->
 
@@ -289,9 +289,11 @@ Here are instructions which you can include inside your files or alongside them.
 
 * ****
 
-## Software needed
+## Practical tutorials
 
-GIMP, Inkscape.
+Do you want to learn how to create layouts with Inkscape? Here you go:
+
+* [Inkscape - create layout without template](articles/inkscape/gutter-fold-without-template.md)
 
 
 ## Feedback
