@@ -1,5 +1,6 @@
 # Inkscape - creating layout from scratch
 
+
 ## Overview
 
 In this tutorial we will create component layout from scratch, without using template. There will be no automation, we will just use bare Inkscape.
@@ -34,7 +35,7 @@ If you want, go watch **Logos by Nick**. They are brief and excellent.
 
 [![All 21 Inkscape Tools Explained in 10 Minutes](https://img.youtube.com/vi/qq7HsMvEVmU/hqdefault.jpg)](https://www.youtube.com/watch?v=qq7HsMvEVmU)
 
-Then try all of mentioned tools/panels. OK, let's go!
+Then try all of mentioned tools/panels. 
 
 ## Create page with double-sided tokens
 
@@ -42,9 +43,24 @@ We have double-sided square tokens for your fictional game to arrange. For this 
 
 We are using **A4** page size and **milimeters** as units. I would recommend to stick with that for now. Also page is "universal" it will print fine on **letter** format page.
 
+**Goal of this tutorial:** 
+
+![Final page][finalpage]
+
 In following tutorial we will create **gutter fold** layout, but you can use the same steps for creating **duplex printing** layout, where first page will contain fronts without central line (you can probably fit there 2 lines of tokens more) and second page with backs. In Inkscape every page is separate file. They can be merged to create one pdf file, but this is covered in separate tutorial.
 
+**Quickly made duplex printing layout:**
+
+![Final duplex fronts][duplexfront]
+![Final duplex backs][duplexback]
+
+
 ### Prepare our example token
+
+**OK, let's go!**
+
+
+![Prepare token][tokenseparated]
 
 1. <ins>Create token background</ins>
     * With **Rectangle tool** [**R**] draw rectangle, open **Fill and Stroke** [**CTRL+SHIFT+F**], on **Stroke paint** tab click on **No paint**, on **Stroke style** set *Width* to 0, on **Fill** tab choose *Linear gradient*. 
@@ -55,6 +71,8 @@ In following tutorial we will create **gutter fold** layout, but you can use the
     * Press [**CTRL+SHIFT+A**]. Press [**S**] and select our text object if not already selected, hold **SHIFT** key and click on square. In **Align and distribute** panel set *Relative to:* to **Last selected**. Click on icons: **Center on horizontal axis** and **Center on vertical axis**.
 3. <ins>Group token</ins>
     * While having square and text selected press [**CTRL+G**] to group objects. Then in toolbar click on **Move gradients** icon (it is one before last) or checkbox.
+
+![Token done][tokendone]
 
 Great! We have our token done!
 
@@ -76,6 +94,8 @@ Great! We have our token done!
     * Press [**S**]. Click on duplicated token then [**CTRL+SHIFT+G**] to un-group it. Press [**ESC**], click on text, then hold **SHIFT** and click on square background. Press [**CTRL+SHIFT+A**] set *Relative to:* to **Last selected** and center on both axes. Press [**CTRL+G**] to group it back. 
     * Press **CTRL+]** (CTRL + square bracket) twice to rotate it upside down.
 4. <ins>Place token and its back</ins> 
+  ![Token and its back][tokenandback]
+
     * Enable snapping by pressing [**SHIFT+5**], make sure that **Snap to grids** is enabled. 
     * Snap token above our center line (one grid square away from line) and two grid square from the left page edge.
     * Place token back under center line one grid square from line and two grid squares from the left page edge.
@@ -99,8 +119,11 @@ Layout done!
     * Duplicate line by pressing [**CTRL+D**] and move new line to the **top-right** corner of the same token.
     * Continue duplicating and moving 4 more times as with horizontal lines. All corners would have line.
 3. <ins>Move lines to right places</ins>
+
+    ![Horizontal cutting lines][horizcut]
     * Select 2 horizontal lines in the middle (not upper and bottom ones). Press [**CTRL+D**] to duplicate them. Hold **SHIFT** and add top line to selection (now you have 3 lines selected). Press [**CTRL+SHIFT+M**] and **Transform** panel will open. On **Move** tab check **Relative move** and make sure **Apply to each object separately** is **unchecked**, set units to millimeters, set **Vertical** to **2** and press **Apply** button. Press [**ESC**]
-    * Select again the same 2 lines in the middle and bottom line. In **Transform** panel on **Move** tab change vertical from 2 to **-2** and press **Apply**.
+    * Select again the same (original, not duplicated and moved) 2 lines in the middle and also bottom line (so you have 3 lines selected). In **Transform** panel on **Move** tab change vertical from 2 to **-2** and press **Apply**.
+  ![Vertical cutting lines][verticut]
     * Apply the same logic to vertical lines. Select all 4 middle lines (without first and last), [**CTRL+D**], hold **SHIFT** and click on the first line. In **Transform** panel on **Move** tab set **Vertical** to **0** and **Horizontal** to **2**, press **Apply**.
     * Select the same 4 middle lines and last line. In **Transform** panel on **Move** tab change **Horizontal** to **-2**. Press **Apply**.
 4. <ins>Copy cutting lines where needed.</ins>
@@ -113,3 +136,17 @@ Layout done!
 **Congratulations! You have just created finished product!**
 
 You can export it to PDF with **File - Save a copy ...**. You can use this as a template for next pages, just **File - Save as ...** different file, delete token fronts with [**DEL**] and replace them by new ones.
+
+You can also download svg file used for making images in this tutoral. There are several layers, where you can find gutter fold and duplex layouts:
+[SVG file][svgfile]
+
+[finalpage]: png/t01s06.png
+[duplexfront]: png/t01s07.png
+[duplexback]: png/t01s08.png
+[tokenseparated]: png/t01s01.png
+[tokendone]: png/t01s02.png
+[tokenandback]: png/t01s03.png
+[horizcut]: png/t01s04.png
+[verticut]: png/t01s05.png
+[svgfile]: svg/01-inkscape-without-template.svg
+

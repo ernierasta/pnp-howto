@@ -171,7 +171,7 @@ NOTE: Please let me know if your printer can't print so close to the edge! I wil
 
 #### If you prepare only one version
 
-If you use **A4** leave extra **18mm** (1.8cm) margin at the **bottom** of the page.
+If you use **A4** leave extra **18mm** (1.8cm) margin at the **bottom** of the page. So you need **23mm** (2.3cm) space at the bottom. You can set your guide in Inkscape to **274mm**.
 
 If you use **letter** size leave extra **6mm** (0.6cm) margin on **right side** of the paper.
 
