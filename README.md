@@ -242,7 +242,7 @@ https://translate.google.com/translate?hl=&sl=pl&tl=en&u=http%3A%2F%2Fpiotrnowin
 
 #### Gutter fold
 
-This is the best layout for PNP, lets see why.
+This is very good layout for PNP, lets see why.
 
 ![alt-text][gutterfold]
 
