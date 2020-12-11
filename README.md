@@ -216,7 +216,7 @@ Also remember that duplex printing layout should contain always page with fronts
 
 ##### When duplex printing is used?
 
-* For every form of "quick printing". When someone wants to play as soon as possible and do not care about perfect build.
+* For every form of "quick printing". When someone wants to play as soon as possible and do not care about perfect build. Also when someone wants to print only fronts of your components.
 * If someone has:
   - double-sided photo paper,
   - linen or other decorated thick paper.
@@ -224,7 +224,7 @@ Also remember that duplex printing layout should contain always page with fronts
   but it is much harder comparing to gutter fold layout.
 
 Precision of duplex printing depends heavily on printer. Usually there will be some shift so bleed is necessary. 
-It works better for backs, which are created by repeating pattern.
+It works best if cut from back side of component.
 
 ##### Do we need cutting lines on both sides of components (backs and fronts)?
 
