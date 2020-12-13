@@ -27,6 +27,7 @@ by Leszek Cimała
                * [Do we need cutting lines on both sides of components (backs and fronts)?](#do-we-need-cutting-lines-on-both-sides-of-components-backs-and-fronts)
             * [Gutter fold](#gutter-fold)
                * [Remember when preparing](#remember-when-preparing)
+               * [Double cutting lines (bleed between components)](#double-cutting-lines-bleed-between-components)
                * [When gutter fold layout is used?](#when-gutter-fold-layout-is-used)
       * [Instructions for game users](#instructions-for-game-users)
       * [Biggest mistakes](#biggest-mistakes)
@@ -34,7 +35,7 @@ by Leszek Cimała
       * [Feedback](#feedback)
       * [TODO](#todo)
 
-<!-- Added by: ernie, at: Wed 09 Dec 2020 10:39:45 PM CET -->
+<!-- Added by: ernie, at: Sun 13 Dec 2020 09:00:29 AM CET -->
 
 <!--te-->
 
@@ -261,6 +262,13 @@ Gutter fold allows for best quality components because there will be no shift be
    should prevent that (*TODO: really? I need to experiment more with that*).
 2. Backs have to be upside down.
 
+##### Double cutting lines (bleed between components)
+
+I would recommend using double cutting lines, this will ensure bleed area is around all components edges. As with duplex printing layout, it is very important have bleed if your edges are different color or have any sort of pattern/gradient.
+
+My layout of **Barry Skinner** [DNGN](https://boardgamegeek.com/thread/2475283/wip-dngn-minimalist-style-euro-inspired-dungeon-cr/page/1):
+![Gutter fold layout with bleed everywhere][gfbleed]
+
 ##### When gutter fold layout is used?
 
 Always ... well almost always. If someone wants to have best looking game, she/he would use this layout provided by author or created by user. There is no better layout known to mankind yet. :-D
@@ -322,6 +330,7 @@ It would be great if I would add:
 [duplex]: images/the-shooting-party_duplex.png "Duplex example"
 [duplexbleed]: images/twin-stars_duplex-bleed.png "Duplex with bleed"
 [gutterfold]: images/the-shooting-party_gutter-fold.png "Gutter fold example"
+[gfbleed]: images/gf-with-bleed.png
 [ginst]: articles/gutter-fold-howto
 [gA4land]: articles/gutter-fold-howto/A4-landscape.pdf
 [gA4port]: articles/gutter-fold-howto/A4-portait.pdf
