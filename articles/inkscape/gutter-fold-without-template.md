@@ -3,7 +3,7 @@
 
 ## Overview
 
-In this tutorial we will create component layout from scratch, without using template. There will be no automation, we will just use bare Inkscape.
+In this tutorial we will create component layout from scratch, without using template. There will be no automation, we will just use bare Inkscape. While we are creating tokens here, creating cards is the same process.
 
 I hope to make video later (will be linked here), which will show more.
 
@@ -36,6 +36,13 @@ If you want, go watch **Logos by Nick**. They are brief and excellent.
 [![All 21 Inkscape Tools Explained in 10 Minutes](https://img.youtube.com/vi/qq7HsMvEVmU/hqdefault.jpg)](https://www.youtube.com/watch?v=qq7HsMvEVmU)
 
 Then try all of mentioned tools/panels. 
+
+```
+Note: If you are opening panel with keyboard for example: [CTRL+SHIFT+M]
+and panel was not opened previously (after opening Inkscape) you need to 
+press the same shortcut again to panel actualy show up. Next time - it
+will work as expected.
+```
 
 ## Create page with double-sided tokens
 
