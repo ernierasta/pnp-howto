@@ -60,9 +60,10 @@ were well done.
 
 If you want to quickstart your files do following:
 
-- download and install Gimp and Inkscape,
+- download and install Inkscape,
 - prepare your components (as a vector or raster graphics) to separate files (for cards poker size, mini-poker),
-- choose which layouts you will provide, usually duplex layout and gutter fold layout. 
+- choose which layouts you will provide, usually duplex layout and gutter fold layout,
+- look at [Practical tutorials](#practical-tutorials) - WIP there will be more ;-). 
 
 ## How games are made?
 
@@ -319,8 +320,6 @@ This how-to is not considered complete without:
 - more tools to create/edit pdf (need to investigate their availability under Windows OS),
 - short how-to print&cut in form of svg and pdf which game designers can distribute along their files or included in files.
 - example article (or/and video) how to prepare both layouts in Inkscape.
-
-It would be great if I would add:
 - example how to automate layout creation using Inkscape extensions.
 
 [introcards]: images/intro.png
