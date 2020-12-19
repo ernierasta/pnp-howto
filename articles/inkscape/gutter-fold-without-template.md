@@ -72,7 +72,7 @@ In following tutorial we will create **gutter fold** layout, but you can use the
 1. <ins>Create token background</ins>
     * With **Rectangle tool** [**R**] draw rectangle, open **Fill and Stroke** [**CTRL+SHIFT+F**], on **Stroke paint** tab click on **No paint**, on **Stroke style** set *Width* to 0, on **Fill** tab choose *Linear gradient*. 
     * Select **Gradient tool** [**G**]. Choose color for the first gradient node and click on some light color on the bottom, for other node choose other light color. 
-    * Press [**S**], in toolbar switch to **milimeters** and enter 34 in **W**idth and in **H**eight boxes, confirm new values by pressing [**Enter**]. Out tokens will be 3cm by 3cm, but we need bleed.
+    * Press [**S**], in toolbar switch to **milimeters** and enter 34 in **W**idth and in **H**eight boxes, confirm new values by pressing [**Enter**]. Our tokens will be 3cm by 3cm, but we need bleed.
 2. <ins>Place some text on token</ins>
     * Press [**T**] for **Text tool**. Click somewhere outside our token and write "My token", select font and size in toolbar. 
     * Press [**CTRL+SHIFT+A**]. Press [**S**] and select our text object if not already selected, hold **SHIFT** key and click on square. In **Align and distribute** panel set *Relative to:* to **Last selected**. Click on icons: **Center on horizontal axis** and **Center on vertical axis**.
