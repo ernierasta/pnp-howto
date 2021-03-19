@@ -225,6 +225,11 @@ Notice, that card edges are different color (and they are not one unified color)
 
 Also remember that duplex printing layout should contain always page with fronts, then page with backs, and so on. Even if you feel, that your file is bigger then it could. This way you will allow for quick printing without investigation which backs are for which components.
 
+There is also very good addition to duplex format - outline. This element was introduced to my by countersheet Inkscape extension and I find it briliant. It is outline around whole page and it allows to cut along it. When someone prints fronts and backs on separate pages outline allows to align fronts and backs much better then shown in linked Polish tutorial.
+Example page from my unpublished prototype with outline:
+
+![duplex-outline][duplexoutline]
+
 ##### When duplex printing is used?
 
 * For every form of "quick printing". When someone wants to play as soon as possible and do not care about perfect build. Also when someone wants to print only fronts of your components.
@@ -337,6 +342,7 @@ This how-to is not considered complete without:
 [bleed]: images/bleed.png "Bleed example"
 [duplex]: images/the-shooting-party_duplex.png "Duplex example"
 [duplexbleed]: images/twin-stars_duplex-bleed.png "Duplex with bleed"
+[duplexoutline]: images/duplex-outline.png "Duplex with outline"
 [gutterfold]: images/the-shooting-party_gutter-fold.png "Gutter fold example"
 [gfbleed]: images/gf-with-bleed.png
 [ginst]: articles/gutter-fold-howto
