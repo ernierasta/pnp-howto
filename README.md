@@ -159,13 +159,22 @@ Note: Proper bleed prevents cutting marks beeing too close to component.
 
 In centimeters (cm):
 
-| Format | Height | Width |
-|--------|--------|-------|
-| A4     | 29.7   | 21    |
-| letter | 27.94  | 21.59 |
+| Format | Width | Height |
+|--------|-------|--------|
+| A4     | 21    | 29.7   |
+| letter | 21.59 | 27.94  |
 
 **Margins**
 Use at least **5mm** (0.5cm, 0.2inch) margin on every side. If you want be safe, use **10mm** (1cm, 0.4inch) margin.
+
+#### Usable space
+Let's assume you have 3mm cutting marks + 2mm bleed + 5mm margin. 
+
+**A4**
+Usable space is **190x277mm** moved 10mm right and down from the left upper corner of the page.
+
+**Letter**
+Usable space is **190.59x259.4mm** moved 10mm right and down from left upper corner of the page.
 
 ```
 NOTE: Please let me know if your printer can't print so close to the edge! I will update info here.

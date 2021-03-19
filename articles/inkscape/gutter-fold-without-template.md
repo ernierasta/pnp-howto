@@ -48,7 +48,7 @@ will work as expected.
 
 We have double-sided square tokens for your fictional game to arrange. For this tutorial, we will create very primitive placeholder tokens as part of tutorial, but you can use your own tokens (in vectors or **File - Import..**. raster graphics).
 
-We are using **A4** page size and **milimeters** as units. I would recommend to stick with that for now. Also page is "universal" it will print fine on **letter** format page.
+We are using **A4** page size and **millimeters** as units. I would recommend to stick with that for now. Also page is "universal" it will print fine on **letter** format page.
 
 **Goal of this tutorial:** 
 
@@ -72,7 +72,7 @@ In following tutorial we will create **gutter fold** layout, but you can use the
 1. <ins>Create token background</ins>
     * With **Rectangle tool** [**R**] draw rectangle, open **Fill and Stroke** [**CTRL+SHIFT+F**], on **Stroke paint** tab click on **No paint**, on **Stroke style** set *Width* to 0, on **Fill** tab choose *Linear gradient*. 
     * Select **Gradient tool** [**G**]. Choose color for the first gradient node and click on some light color on the bottom, for other node choose other light color. 
-    * Press [**S**], in toolbar switch to **milimeters** and enter 34 in **W**idth and in **H**eight boxes, confirm new values by pressing [**Enter**]. Our tokens will be 3cm by 3cm, but we need bleed.
+    * Press [**S**], in toolbar switch to **millimeters** and enter 34 in **W**idth and in **H**eight boxes, confirm new values by pressing [**Enter**]. Our tokens will be 3cm by 3cm, but we need bleed.
 2. <ins>Place some text on token</ins>
     * Press [**T**] for **Text tool**. Click somewhere outside our token and write "My token", select font and size in toolbar. 
     * Press [**CTRL+SHIFT+A**]. Press [**S**] and select our text object if not already selected, hold **SHIFT** key and click on square. In **Align and distribute** panel set *Relative to:* to **Last selected**. Click on icons: **Center on horizontal axis** and **Center on vertical axis**.
@@ -88,7 +88,7 @@ Great! We have our token done!
 1. <ins>Document Properties</ins>
     * **Open File - Document Properties**. 
     * Select **A4**, **portrait**.
-    * Switch to **Grids** tab. Choose **Rectangular grid** and click **New**. Set **Grid units** to **milimeters**. Set *Align to page* to center point. Set **Spacing X** and **Spacing Y** to 8.5, **Major grid line every** leave at 5. 
+    * Switch to **Grids** tab. Choose **Rectangular grid** and click **New**. Set **Grid units** to **millimeters**. Set *Align to page* to center point. Set **Spacing X** and **Spacing Y** to 8.5, **Major grid line every** leave at 5. 
     * Close dialog.
 2. <ins>Create Center (folding) line</ins>.
     * Press [**B**], click, hold **CTRL**, second click at the end, press [**Enter**] - you will draw horizontal line almost as wide as page (leave at least **5mm** from edge).
