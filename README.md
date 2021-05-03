@@ -12,13 +12,17 @@ by Leszek Cimała
       * [How games are made?](#how-games-are-made)
       * [Components](#components)
          * [Size](#size)
+            * [Cards](#cards)
+            * [Circle components](#circle-components)
          * [Low-ink version](#low-ink-version)
          * [Color space](#color-space)
       * [Layouts](#layouts)
          * [Common rules for all layouts](#common-rules-for-all-layouts)
             * [Crop(cutting) marks.](#cropcutting-marks)
             * [Bleed](#bleed)
+               * [What is bleed?](#what-is-bleed)
          * [Page size A4 vs U.S. Letter](#page-size-a4-vs-us-letter)
+            * [Usable space](#usable-space)
             * [If you prepare only one version](#if-you-prepare-only-one-version)
             * [If you are hero and prepare both versions](#if-you-are-hero-and-prepare-both-versions)
          * [Duplex printing vs gutter fold layouts.](#duplex-printing-vs-gutter-fold-layouts)
@@ -35,7 +39,7 @@ by Leszek Cimała
       * [Feedback](#feedback)
       * [TODO](#todo)
 
-<!-- Added by: ernie, at: Sun 13 Dec 2020 09:00:29 AM CET -->
+<!-- Added by: ernie, at: Mon Apr 12 09:48:51 AM CEST 2021 -->
 
 <!--te-->
 
@@ -61,7 +65,7 @@ were well done.
 If you want to quickstart your files do following:
 
 - download and install Inkscape,
-- prepare your components (as a vector or raster graphics) to separate files (for cards poker size, mini-poker),
+- prepare your components (as a vector or raster graphics) in Inkscape,
 - choose which layouts you will provide, usually duplex layout and gutter fold layout,
 - look at [Practical tutorials](#practical-tutorials) - WIP there will be more ;-). 
 
@@ -94,6 +98,8 @@ If you are going to use hex tokens, it is crucial to put them in layout you will
 If you did not decided yet which size of your components you want to use, I would recommend to stick with standard sizes.
 What are standard sizes? Who knows. :-)
 
+#### Cards
+
 There is many sizes in the wild, but for normal cards I would consider poker card size as most commonly used:
 
 Poker size:  88.9mm x 63.5mm (3.5in x 2.5in)
@@ -102,8 +108,16 @@ Second common size is bridge cards which are narrower. It may be beneficial to u
 
 Bridge size: 88.9mm x 56mm (3.5in x 2.25in)
 
-Other components are usually up to you, just remember that A3 (legal) printers are rare, while you can provide A3 board you should
-provide also 2xA4 alternative.
+#### Circle components
+
+There are no standards I would know about. 
+
+You can take into account, that NT IC-1500P rottary cutter (which would not punch hole in the middle of the cicrle) can cut 18mm-170mm circles (I would say 19mm in reality).
+I personally have 22mm and 29mm punches, but that means nothing. ;-) I will fill in more sizes, based on available coin protectors or sizes from common games.
+
+Other components are up to you.
+
+TODO: expand this section to offer more sizes. A lot of research needed.
 
 ### Low-ink version
 
@@ -148,14 +162,36 @@ Note: Proper bleed prevents cutting marks beeing too close to component.
 
 #### Bleed
 
+##### What is bleed?
+
+Bleed is part of graphics which extends behind component. In practice, if component is made by image, part of that images (all edges) will be cut off final component. If there is one color edge on the component it is just additional space taken by that color added to all edges of the component.
+In example, if you have poker sized card (63.5x88.9mm) with 2mm bleed it will take 67.5x92.9mm of space on page..
+
+Characteristics:
+
 1. Bleed is necessary to allow slight cutting/alignment errors.
 2. Bleed should be 2-3mm.
-3. Best when created in component design phase.
+3. Best when created during component design phase.
 4. You need to have bleed area around every edge of the component.
+
+**Fake bleed**
+
+Fake bleed is bleed added later, not at design phase, to provide area for cutting/alignment errors. I would distinguish two types of fake bleed:
+
+- **graphical** - tries to continue graphic design from components (usually created by cloning some parts of original design). It is quite hard to do and sometimes impossible to do well, but when done right results may be very good.
+- **one color** - to add bleed it is needed to modify component itself. If component originally doesn't have one color edge, it is added to the component (usually covering 2-3mm of the component) and then extended to form additional 2-3mm bleed (so lets say you have 6mm one color edge total). This is worst type of situation, but sometimes necessary (I saw this kind of bleed on gamecrafter). 
+
+NOTE: You can not just add one color around component and call it bleed. It will still create bad looking edges on any misalignment.
+
 
 ![alt text][bleed]
 
 ### Page size A4 vs U.S. Letter
+
+```
+NOTE: Remember that A3 (legal) printers are rare, while you can provide A3 board you should
+provide also 2xA4 alternative.
+```
 
 In centimeters (cm):
 
