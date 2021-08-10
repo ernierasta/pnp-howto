@@ -8,7 +8,7 @@ by Leszek Cimała
 <!--ts-->
    * [Board game: how to prepare files for printing](#board-game-how-to-prepare-files-for-printing)
       * [Intro](#intro)
-      * [Quickstart](#quickstart)
+      * [TL;DR](#tldr)
       * [How games are made?](#how-games-are-made)
       * [Components](#components)
          * [Size](#size)
@@ -39,7 +39,7 @@ by Leszek Cimała
       * [Feedback](#feedback)
       * [TODO](#todo)
 
-<!-- Added by: ernie, at: Mon Apr 12 09:48:51 AM CEST 2021 -->
+<!-- Added by: ernie, at: Tue Aug 10 07:01:11 AM CEST 2021 -->
 
 <!--te-->
 
@@ -60,14 +60,14 @@ But in my opinion even simple minimalistic graphic is nice and deserve to be cut
 When preparing this how-to I was looking at my downloaded PNP-s (60+ games), and if not counting about 10 R&W, max 5 of them
 were well done.
 
-## Quickstart
+## TL;DR
 
-If you want to quickstart your files do following:
+- prepare proper bleed (no black lines around components),
+- add crop marks,
+- consider A4 vs letter paper size,
+- create duplex print layout and/or gutter fold layout.
 
-- download and install Inkscape,
-- prepare your components (as a vector or raster graphics) in Inkscape,
-- choose which layouts you will provide, usually duplex layout and gutter fold layout,
-- look at [Practical tutorials](#practical-tutorials) - WIP there will be more ;-). 
+If you do not know which software to use, you may consider looking at [Practical tutorials](#practical-tutorials).
 
 ## How games are made?
 
@@ -218,7 +218,7 @@ NOTE: Please let me know if your printer can't print so close to the edge! I wil
 
 #### If you prepare only one version
 
-If you use **A4** leave extra **18mm** (1.8cm) margin at the **bottom** of the page. So you need **23mm** (2.3cm) space at the bottom. You can set your guide in Inkscape to **274mm**.
+If you use **A4** leave extra **18mm** (1.8cm) margin at the **bottom** of the page. So you need **23mm** (2.3cm) space at the bottom. You can set your guide in graphic program (f.e. Inkscape) to **274mm**.
 
 If you use **letter** size leave extra **6mm** (0.6cm) margin on **right side** of the paper.
 
