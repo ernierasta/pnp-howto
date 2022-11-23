@@ -165,7 +165,9 @@ Note: Proper bleed prevents cutting marks beeing too close to component.
 ##### What is bleed?
 
 Bleed is part of graphics which extends behind component. In practice, if component is made by image, part of that images (all edges) will be cut off final component. If there is one color edge on the component it is just additional space taken by that color added to all edges of the component.
-In example, if you have poker sized card (63.5x88.9mm) with 2mm bleed it will take 67.5x92.9mm of space on page..
+In example, if you have poker sized card (63.5x88.9mm) with 2mm bleed it will take 67.5x92.9mm of space on page...
+
+NOTE: You should also have 2-3mm "safe area" in component itself (no important data close to edge) if possible. Of course smaller components may not allow that.
 
 Characteristics:
 
