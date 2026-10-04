@@ -334,6 +334,8 @@ It is always good idea to provide short instructions how to print and cut your g
 
 Here are instructions which you can include inside your files or alongside them.
 
+You can also suggest printing a simple [scale and margin test page](https://testpageforprinter.com/tools/scale-check/) before the game files, so users can confirm that their printer is not shrinking the page or clipping the printable area.
+
 [Gutter fold instruction - source](articles/gutter-fold-howto.md)
  * ![PDF A4 Portait][gA4port]
  * ![PDF A4 Landscape][gA4land]
